@@ -1,0 +1,71 @@
+body {
+/*padding: 0 55px;*/
+margin: 0;
+font-family: Roboto;
+color:  black;
+font-size:  24px;
+background-color: grey;
+	
+/*	margin: 0 auto;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.header {
+	padding: 0 ;
+	height: 84px;
+	background-color: #007765;
+}
+
+
+.header .container .nav{
+	display: flex;
+	align-items: center;
+	/*justify-content: center;*/
+	/*margin-top: 20px;*/
+}
+
+.header .container img {	
+	height: 45px;
+	width: 184px;
+	margin-left: 500px;
+	margin-top: 20px;  /*костыль, если бы я делал margin в .header, то он опустил бы вместе с задним фоном*/
+	margin-right: 502px;
+}
+
+.header .container a {
+	font-family: Roboto;
+	display: flex;
+	font-size:  24px;
+	 text-decoration: none;
+	 color: white;
+	 justify-content: space-between;
+	 font-size: 24px;
+	 font-style: normal;
+	 margin-right: 8px;
+	 margin-top: 20px;  
+}
+
+.introimg {
+	height: 403px;
+	background-color:  orange; 
+	background-image: url('../img/top.png');
+}
+.introimg p{
+	color:  white;
+	display: flex;
+	justify-content: center;
+	padding-top: 160px;
+	font-size: 72px;
+	margin: 0;
+}
+
