@@ -18,11 +18,22 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
+/*Заголовки h1 одинаковы друг для друга*/
+h1 {
+		color: #007765;
+		text-align: center;
+		margin-top: 48px;
+		font-size: 64px;
+		margin-bottom: 16px;
+}
+
 
 .header {
 	padding: 0 ;
 	height: 80px;
 	background-color: #007765;
+	position: sticky;
+    top: 0;
 }
 
 
@@ -52,29 +63,12 @@ h1,h2,h3,h4,h5,h6{
 
 .header-content-logo {
 	display: flex;
-	/*margin-top: 20px;*/
 }
 
 .menu{
-/*	font-family: Roboto;
 	display: flex;
-	font-size:  24px;
-	 text-decoration: none;
-	 color: white;
-	 justify-content: space-between;
-	 font-size: 24px;
-	 font-style: normal;
-	 margin-right: 8px;
-	 margin-top: 20px;*/
-display: flex;
-margin-left: auto;
-justify-content: space-between;
-/*	 text-decoration: none;
-	 font-family: Roboto;
-	 font-size:  24px;
-	 margin-top: 20px;
-	 /*align-content:  flex-end;*/
-	
+	margin-left: auto;
+	justify-content: space-between;	
 }
 
 .menu li a{
@@ -91,20 +85,8 @@ justify-content: space-between;
 	width: 70%;
 }
 
-.about h1{
-	color: #007765;
-	text-align: center;
-	margin-top: 48px;
-	font-size: 64px;
-}
-
 .text-the-problem{
-	/*width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 32px;
-	line-height: 37px;*/
-		background-color: #EEEEEE;
+	background-color: #EEEEEE;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
@@ -137,13 +119,7 @@ justify-content: space-between;
 	width: 70%;
 }
 
-.main-content h1 {
-		color: #007765;
-		text-align: center;
-		margin-top: 48px;
-		font-size: 64px;
-		margin-bottom: 16px;
-}
+
 
 .main-content-info img {
 	float: left;
@@ -151,7 +127,7 @@ justify-content: space-between;
 }
 
 .main-content-info {
-			background-color: #EEEEEE;
+	background-color: #EEEEEE;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
@@ -174,3 +150,90 @@ width: 75%;
 	line-height: 37px;
 	width: 85%;
 } 
+
+.content-team-img {
+	display: flex;
+	flex-flow: column wrap;
+	text-align: center;
+	width: 168px;
+	height: 168px;
+}
+
+.team {
+	background-color: #EEEEEE;
+  /*  padding-top: 58px;
+    padding-bottom: 112px;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.main-container {
+    /*max-width: 1219px;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.team-cards {
+    padding-top: 58px;
+}
+
+.figure {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+
+.cards-img {
+    width: 350px;
+    height: 283px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+.cards-photo {
+    width: 168px;
+    height: 168px;
+}
+
+.cards-img {
+    width: 350px;
+    height: 283px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+.name-card {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+footer {
+	background-color: #333333;
+	height: 176px;
+
+}
+
+footer p {
+	color:  white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	width: 25%;
+	font-size: 18px;
+	line-height: 21px;
+	font-family: Roboto;
+}
